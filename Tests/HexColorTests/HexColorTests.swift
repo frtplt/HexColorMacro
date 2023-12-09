@@ -7,7 +7,7 @@ import XCTest
 import HexColorMacros
 
 let testMacros: [String: Macro.Type] = [
-    "uiColor": HexMacro.self,
+    "uiColor": HexMacroUIColor.self,
 ]
 #endif
 
